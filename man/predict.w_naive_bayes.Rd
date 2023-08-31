@@ -36,5 +36,5 @@ Type "pred" will give class predictions. "prob" will give probabilities for
 each class.
 }
 \seealso{
-[predict()], [rbooster::predict.w_discrete_naive_bayes()], [rbooster::predict.w_gaussian_naive_bayes()]
+\code{\link[=predict]{predict()}}, \code{\link[=predict.w_discrete_naive_bayes]{predict.w_discrete_naive_bayes()}}, \code{\link[=predict.w_gaussian_naive_bayes]{predict.w_gaussian_naive_bayes()}}
 }

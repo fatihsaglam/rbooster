@@ -13,7 +13,7 @@
 #' @export
 
 print.booster <- function(x, ...){
-  if (!is(x, "booster")) {
+  if (!inherits(x, "booster")) {
     stop("object class must be 'booster'")
   }
 
@@ -26,7 +26,7 @@ print.booster <- function(x, ...){
 #' @keywords internal
 #' @export
 print.discrete_adaboost <- function(x, ...){
-  if (class(x) != "booster") {
+  if (!inherits(x, "booster")) {
     stop("object class must be 'booster'")
   }
 
@@ -63,7 +63,7 @@ print.discrete_adaboost <- function(x, ...){
 #' @keywords internal
 #' @export
 print.real_adaboost <- function(x, ...){
-  if (class(x) != "booster") {
+  if (!inherits(x, "booster")) {
     stop("object class must be 'booster'")
   }
 

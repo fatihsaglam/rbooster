@@ -14,7 +14,7 @@
 #' @export
 
 plot.booster <- function(x, y, ...){
-  if (!is(x, "booster")) {
+  if (!inherits(x, "booster")) {
     stop("object class must be 'booster'")
   }
 

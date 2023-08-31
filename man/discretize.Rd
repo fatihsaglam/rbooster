@@ -20,10 +20,10 @@ for each variable. Default is \code{NULL}.}
 }
 \value{
 a list consists of:
- \item{x_discrete}{data.frame of discretized variables. Each variable is a factor.}
- \item{boundaries}{upper and lower limit matrix of discretization
+\item{x_discrete}{data.frame of discretized variables. Each variable is a factor.}
+\item{boundaries}{upper and lower limit matrix of discretization
 for each variable.}
- \item{categories}{category names for each variable.}
+\item{categories}{category names for each variable.}
 }
 \description{
 Discretizes numeric variables

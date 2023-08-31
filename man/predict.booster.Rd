@@ -35,5 +35,5 @@ Type "pred" will give class predictions. "prob" will give probabilities for
 each class.
 }
 \seealso{
-[predict()]
+\code{\link[=predict]{predict()}}
 }
