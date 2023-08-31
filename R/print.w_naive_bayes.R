@@ -30,9 +30,9 @@ print.w_gaussian_naive_bayes <- function(x, ...){
       "\n ",
       "class names = ", paste(as.character(x$class_names), collapse = ", "),
       "\n ",
-      "priors = ", "{", paste(x$class_names, "=", x$priors, collapse = ", ", sep = ""), "}",
+      "priors = ", "{", paste(x$class_names, "=", round(x$priors,2), collapse = ", ", sep = ""), "}",
       "\n ",
-      "n classes = ", "{", paste("n_", x$class_names, "=", x$n_classes, collapse = ", ", sep = ""), "}",
+      "n = ", "{", paste(x$class_names, "=", x$n_classes, collapse = ", ", sep = ""), "}",
       "\n ",
       "marginal distributions : Gaussian densities", sep = "")
 
@@ -50,9 +50,9 @@ print.w_discrete_naive_bayes <- function(x, ...){
       "\n ",
       "class names = ", paste(as.character(x$class_names), collapse = ", "),
       "\n ",
-      "priors = ", "{", paste(x$class_names, "=", x$priors, collapse = ", ", sep = ""), "}",
+      "priors = ", "{", paste(x$class_names, "=", round(x$priors,2), collapse = ", ", sep = ""), "}",
       "\n ",
-      "n classes = ", "{", paste("n_", x$class_names, "=", x$n_classes, collapse = ", ", sep = ""), "}",
+      "n = ", "{", paste(x$class_names, "=", x$n_classes, collapse = ", ", sep = ""), "}",
       "\n ",
       "marginal distributions : binomial probabilities", sep = "")
 
