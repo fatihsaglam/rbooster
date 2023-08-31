@@ -11,7 +11,6 @@
 #' classifiers are "rpart", "glm", "gnb", "dnb", "earth".
 #' @param predictor prediction function for classifier. It's output must be a
 #' factor variable with the same levels of y_train
-#' @param method "discrete" or "real" for Discrete or Real Adaboost.
 #' @param x_test optional test feature matrix. Can be used instead of predict
 #' function. print_detail and print_plot gives information about test.
 #' @param y_test optional a factor test class variable with the same levels as

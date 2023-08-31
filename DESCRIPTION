@@ -1,7 +1,7 @@
 Package: rbooster
 Type: Package
 Title: AdaBoost Framework for Any Classifier
-Version: 1.1.2
+Version: 1.1.3
 Authors@R: 
         c(person("Fatih", "Saglam", email = "fatih.saglam@omu.edu.tr", role = c("aut", "cre"), 
         comment = c(ORCID = "0000-0002-2084-2008")), 
@@ -17,7 +17,8 @@ Depends: R (> 4.0.4)
 Imports: 
     stats,
     rpart,
-    earth (>= 5.3.2)
+    earth (>= 5.3.2),
+    Hmisc
 Suggests: 
 License: MIT + file LICENSE
 Encoding: UTF-8

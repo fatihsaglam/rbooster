@@ -18,6 +18,8 @@
 #' for each variable.}
 #'  \item{categories}{category names for each variable.}
 #'
+#' @importFrom Hmisc wtd.quantile
+#'
 #' @author Fatih Saglam, fatih.saglam@omu.edu.tr
 #' @export
 

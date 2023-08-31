@@ -7,6 +7,8 @@
 #' @param w vector of weights. If NULL, non-weighted variance is calculated.
 #' @param mean a pre-calculated mean. If NULL, mean is calculated.
 #'
+#' @importFrom stats var
+#'
 #' @rdname var_weighted
 #' @keywords internal
 #' @export
@@ -17,6 +19,7 @@ var_weighted <- function(x, w = NULL, mean = NULL) {
     if (is.null(mean)) {
       return(var(x))
     } else {
+      n <- length(x)
       return(sum((x - mean)^2)/(n - 1))
     }
   } else {

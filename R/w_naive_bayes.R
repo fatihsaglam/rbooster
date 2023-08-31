@@ -36,9 +36,6 @@
 #' @examples
 #' asd <- rnorm(100)
 #'
-#' @importFrom Hmisc wtd.mean
-#' @importFrom Hmisc wtd.var
-#'
 #' @rdname w_naive_bayes
 #' @export
 

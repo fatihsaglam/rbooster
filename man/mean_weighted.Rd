@@ -12,6 +12,6 @@ mean_weighted(x, w = NULL)
 \item{w}{vector of weights. If NULL, non-weighted mean is calculated.}
 }
 \description{
-Calcualtes weighted mean
+Calculates weighted mean
 }
 \keyword{internal}

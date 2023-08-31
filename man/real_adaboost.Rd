@@ -68,8 +68,6 @@ classifiers.}
 
 \item{...}{additional arguments for classifier and predictor functions.
 weak classifiers.}
-
-\item{method}{"discrete" or "real" for Discrete or Real Adaboost.}
 }
 \value{
 a booster object with below components.
